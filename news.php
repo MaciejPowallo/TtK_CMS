@@ -9,11 +9,11 @@
 <head>
 		<meta charset=utf-8>
 		<meta name=viewport content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>/bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>/font-awesome/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>/css/main-style.min.css">
-		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>/lightbox/css/lightbox.css">
-		<script src="<?php echo APP_RES?>/js/jquery-3.2.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>css/main-style.min.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>lightbox/css/lightbox.css">
+		<script src="<?php echo APP_RES?>js/jquery-3.2.1.min.js"></script>
 
 		<?php $CMS->head(); ?>
 

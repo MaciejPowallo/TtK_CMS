@@ -8,13 +8,13 @@
 <head>
 		<meta charset=utf-8>
 		<meta name=viewport content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>/bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>/font-awesome/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>/css/main-style.min.css">
-		<script src="<?php echo APP_RES?>/js/jquery-3.2.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>css/main-style.min.css">
+		<script src="<?php echo APP_RES?>js/jquery-3.2.1.min.js"></script>
 		<?php $CMS->head(); ?>
 
-	<title>Nazwa strony</title>
+	<title>Neobud Piotr Lejczak</title>
 
 </head>
 <body>
@@ -71,39 +71,39 @@
 	<div class="col-sm-12 text-center">
 		<div class="col-md-4">
 			<div class="thumbnail box-shadow">
-				<a href="<?php SITE_PATH;?>/forsale/detached-house.php">
+				<a href="<?php SITE_PATH;?>forsale/detached-house.php">
 		            <?php  
 		            	$id_image = 4;
 						$settings->selectCarouselImage($id_image);     
 		            ?> 
 					<div class="caption">
-						<p class="title">Domy wolnostojące</p>
+						<p class="title">Domy parterowe wolnostojące</p>
 					</div>
 				</a>
 			</div>
 		</div>
 		  <div class="col-md-4">
 		    <div class="thumbnail box-shadow">
-		      	<a href="<?php SITE_PATH;?>/forsale/semi-detached-house.php">
+		      	<a href="<?php SITE_PATH;?>forsale/semi-detached-house.php">
 		            <?php  
 		            	$id_image = 5;
 						$settings->selectCarouselImage($id_image);     
 		            ?> 
 		        	<div class="caption">
-						<p class="title">Domy bliźniacze</p>
+						<p class="title">Domy w zabudowie bliźniaczej</p>
 		        	</div>
 		      	</a>
 		    </div>
 		 </div>
 		 <div class="col-md-4">
 		    <div class="thumbnail box-shadow">
-		      	<a href="<?php SITE_PATH;?>/forsale/terraced-house.php">
+		      	<a href="<?php SITE_PATH;?>forsale/terraced-house.php">
 		            <?php  
 		            	$id_image = 6;
 						$settings->selectCarouselImage($id_image);     
 		            ?> 
 		        	<div class="caption">
-						<p class="title">Domy szeregowe</p>
+						<p class="title">Domy parterowe w zabudowie bliźniaczej</p>
 		        	</div>
 		      	</a>
 		    </div>
@@ -125,7 +125,7 @@
 				    	<div class="text text-center">
 				    		<i class="fa fa-handshake-o fa-3x" aria-hidden="true"></i><br>
 				    		Firma realizująca sprzedaż nieruchomości<br>
-				    		<small><i class="fa fa-phone" aria-hidden="true"></i> 111 222 333</small>
+				    		<small><i class="fa fa-phone" aria-hidden="true"></i> (+48) 77 410 50 60</small>
 				    	</div>
 				  	</div>
 				</a>
@@ -140,9 +140,9 @@
 	</footer>
 
 <!--      scripts      -->
-		<script src="<?php echo APP_RES?>/bootstrap/js/bootstrap.min.js"></script>
-		<script src="<?php echo APP_RES?>/js/main-style.js"></script>
-		<script src="<?php echo APP_RES?>/js/scroll-to-top.min.js"></script>
+		<script src="<?php echo APP_RES?>bootstrap/js/bootstrap.min.js"></script>
+		<script src="<?php echo APP_RES?>js/main-style.js"></script>
+		<script src="<?php echo APP_RES?>js/scroll-to-top.min.js"></script>
 
 <!--      scroll-to-top      -->
 	  <a href="" id="scroll-to-top" >

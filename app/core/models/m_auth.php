@@ -1,7 +1,7 @@
 <?php
 
 class Auth{
-	private $salt = 'cds6zc7sdv';
+	private $salt = 'zC3wS^dd$4';
 
 	function __construct(){
 	}

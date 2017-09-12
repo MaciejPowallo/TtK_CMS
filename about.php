@@ -5,11 +5,11 @@
 <head>
 		<meta charset=utf-8>
 		<meta name=viewport content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>/bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>/font-awesome/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>/css/main-style.min.css">
-		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>/lightbox/css/lightbox.css">
-		<script src="<?php echo APP_RES?>/js/jquery-3.2.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>css/main-style.min.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>lightbox/css/lightbox.css">
+		<script src="<?php echo APP_RES?>js/jquery-3.2.1.min.js"></script>
 
 		<?php $CMS->head(); ?>
 
@@ -45,10 +45,10 @@
 </footer>
 
 <!-- scripts -->
-	<script src="<?php echo APP_RES?>/lightbox/js/lightbox.js"></script>
-	<script src="<?php echo APP_RES?>/bootstrap/js/bootstrap.min.js"></script>
-	<script src="<?php echo APP_RES?>/js/main-style.js"></script>
-	<script src="<?php echo APP_RES?>/js/scroll-to-top.min.js"></script>
+	<script src="<?php echo APP_RES?>lightbox/js/lightbox.js"></script>
+	<script src="<?php echo APP_RES?>bootstrap/js/bootstrap.min.js"></script>
+	<script src="<?php echo APP_RES?>js/main-style.js"></script>
+	<script src="<?php echo APP_RES?>js/scroll-to-top.min.js"></script>
 
 <!-- scroll-to-top -->
 	<a href="" id="scroll-to-top" >

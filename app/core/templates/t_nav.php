@@ -19,28 +19,28 @@
                         <a class="page-scroll" href="<?php SITE_PATH;?>/">Strona główna</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="<?php SITE_PATH;?>/about.php">O nas</a>
+                        <a class="page-scroll" href="<?php SITE_PATH;?>../about.php">O nas</a>
                     </li>
 			      	<li id="drop" class="dropdown">
 			        <a class="dropdown-toggle" id="drop" data-toggle="dropdown" href="#">Inwestycje<span class="caret"></span></a>
 				        <ul class="dropdown-menu">
       						<li class="dropdown-header">W SPRZEDAŻY</li>
-				          	<li><a class="page-scroll indentation" href="<?php SITE_PATH;?>/forsale/detached-house.php">Domy wolnostojące</a></li>
-				          	<li><a class="page-scroll indentation" href="<?php SITE_PATH;?>/forsale/semi-detached-house.php">Domy bliźniacze</a></li>
-				          	<li><a class="page-scroll indentation" href="<?php SITE_PATH;?>/forsale/terraced-house.php">Domy szeregowe</a></li>
+				          	<li><a class="page-scroll indentation" href="../<?php SITE_PATH;?>forsale/detached-house.php">Domy parterowe wolnostojace</a></li>
+				          	<li><a class="page-scroll indentation" href="../<?php SITE_PATH;?>forsale/semi-detached-house.php">Domy w zabudowie bliźniaczej</a></li>
+				          	<li><a class="page-scroll indentation" href="../<?php SITE_PATH;?>forsale/terraced-house.php">Domy parterowe w zabudowie bliźniaczej</a></li>
       						<li class="divider"></li>
       						<li class="dropdown-header">SPRZEDANE</li>
-                            <li><a class="page-scroll indentation" href="<?php SITE_PATH;?>/sold/detached-house.php">Domy wolnostojące</a></li>
-                            <li><a class="page-scroll indentation" href="<?php SITE_PATH;?>/sold/semi-detached-house.php">Domy bliźniacze</a></li>
-                            <li><a class="page-scroll indentation" href="<?php SITE_PATH;?>/sold/terraced-house.php">Domy szeregowe</a></li>
+                            <li><a class="page-scroll indentation" href="../<?php SITE_PATH;?>sold/detached-house.php">Domy parterowe wolnostojace</a></li>
+                            <li><a class="page-scroll indentation" href="../<?php SITE_PATH;?>sold/semi-detached-house.php">Domy w zabudowie bliźniaczej</a></li>
+                            <li><a class="page-scroll indentation" href="../<?php SITE_PATH;?>sold/terraced-house.php">Domy parterowe w zabudowie bliźniaczej</a></li>
       						<li class="divider"></li>
 				        </ul>
 			      	</li>
                     <li>
-                        <a class="page-scroll" href="<?php SITE_PATH;?>/news.php"">Aktualności</a>
+                        <a class="page-scroll" href="<?php SITE_PATH;?>../news.php">Aktualności</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="<?php SITE_PATH;?>/contact.php">Kontakt</a>
+                        <a class="page-scroll" href="<?php SITE_PATH;?>../contact.php">Kontakt</a>
                     </li>
                 </ul>
             </div>

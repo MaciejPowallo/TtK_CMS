@@ -18,10 +18,10 @@ $phone = strip_tags(htmlspecialchars($_POST['phone']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
    
 // Create the email and send the message
-$to = 'email@example.com'; 
+$to = 'plejczak@wp.pl'; 
 $email_subject = "Wiadomość ze strony od:  $name";
 $email_body = "Treść wiadomości:\n\n"."Nazwa: $name\n\nEmail: $email_address\n\nTelefon: $phone\n\nWiadomość:\n$message";
-$headers = "Automat: noreply@example.com\n";
+$headers = "Automat: noreply@neobud.com.pl\n";
 $headers .= "Nadawca: $email_address";   
 mail($to,$email_subject,$email_body,$headers);
 

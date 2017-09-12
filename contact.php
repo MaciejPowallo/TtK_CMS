@@ -4,13 +4,13 @@
 <head>
 		<meta charset=utf-8>
 		<meta name=viewport content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>/bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>/font-awesome/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>/css/main-style.min.css">
-    <script src="<?php echo APP_RES?>/js/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>css/main-style.min.css">
+    <script src="<?php echo APP_RES?>js/jquery.min.js"></script>
 
 		<?php $CMS->head(); ?>
-	  <title>Kontakt - Nazwa firmy</title>
+	  <title>Kontakt - Neobud</title>
 
 </head>
 <body>
@@ -30,19 +30,19 @@
   <div class="container">
 
       <div class="col-sm-5 col-sm-offset-1 name">
-        <h3>Nazwa firmy</h3>
-        <h3>ul. Jakaś 15, 11-222 Wrocław</h3>
+        <h3>Neobud Piotr Lejczak</h3>
+        <h3>ul. Nad Widawą 5, 46-100 Namysłów</h3>
       </div>
       <div class="col-sm-5 col-sm-offset-1 name">        
-        <h3><i class="fa fa-phone-square" aria-hidden="true"></i> 111 222 333</h3>
-        <h3><i class="fa fa-envelope" aria-hidden="true"></i> email&#64;example.com</h3>
+        <h3><i class="fa fa-phone-square" aria-hidden="true"></i> 600939381</h3>
+        <h3><i class="fa fa-envelope" aria-hidden="true"></i> plejczak&#64;wp.pl</h3>
       </div>
   </div>
 </section>
 
 <section  id="map" >
   <div class="map_overlay" onClick="style.pointerEvents='none'"></div>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7824.408292185774!2d-77.01497462877735!3d38.89840615021885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e7729f629ff08f%3A0xf6fd37328818c73a!2sGoogle!5e0!3m2!1spl!2spl!4v1503606451436" width="900" height="300" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2506.630958639582!2d17.72737571575421!3d51.07836217956693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471016a5d12d36a5%3A0x473b93bded9700f9!2sNeobud+Piotr+Lejczak!5e0!3m2!1spl!2spl!4v1500843791560" width="900" height="300" frameborder="0" allowfullscreen></iframe>
 
 </section>
 
