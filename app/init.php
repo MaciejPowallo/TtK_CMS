@@ -1,5 +1,10 @@
 <?php
 
+if (substr($_SERVER['HTTP_HOST'],0,3) != 'www') {
+	header('HTTP/1.1 301 Moved Permanently');
+	header('Location: http://www.'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
+}
+
 define("SITE_PATH", "http://cms.loc/");
 define("APP_PATH", str_replace("\\", "/", dirname(__FILE__)) . "/");
 define("APP_RES", "http://cms.loc/app/res/");

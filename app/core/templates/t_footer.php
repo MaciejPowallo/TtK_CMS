@@ -8,5 +8,5 @@
   			<i class="fa fa-envelope" aria-hidden="true"></i> plejczak&#64;wp.pl
   		</div>
 	</div>
-	<div class="col-xs-12"><a class="developer text-center" href="http://www.maciejpowallo.pl/">&#169; <?php echo date("Y");?> TtK CMS by Maciek</a> <small>v. 1.1.2</small></div>
+	<div class="col-xs-12"><a class="developer text-center" href="http://www.maciejpowallo.pl/">&#169; <?php echo date("Y");?> TtK CMS by Maciek</a> <small>v. 1.1.3</small></div>
   <script src="<?php echo APP_RES?>/js/cookies.min.js"></script>
