@@ -22,4 +22,4 @@ if(isset($_POST['submit'])){
 }
 else{
     header('Location: ' . SITE_PATH . 'news.php'); 
- }
+}

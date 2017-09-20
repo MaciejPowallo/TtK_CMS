@@ -1,5 +1,5 @@
 <nav class="navbar ">
-		<ul class="nav nav-pills nav-stacked">
+    <ul class="nav nav-pills nav-stacked">
         <li>
             <a href="<?php SITE_PATH ?>../settings/users.php">Lista użytkowników</a>
         </li>

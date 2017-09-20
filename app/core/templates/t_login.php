@@ -2,11 +2,10 @@
 <script src="<?php echo APP_RES; ?>js/jquery.colorbox-min.js"></script>
 
 <script>
-	$(document).ready(function(){
-		$.colorbox({
-			href: '<?php echo SITE_PATH; ?>app/login.php',
-			overlayClose: false
-		});
-	});
-
+   $(document).ready(function(){
+      $.colorbox({
+         href: '<?php echo SITE_PATH; ?>app/login.php',
+         overlayClose: false
+      });
+   });
 </script>

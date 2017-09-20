@@ -1,5 +1,4 @@
 <?php
-
 include('../init.php');
 include('models/m_settings.php');
 

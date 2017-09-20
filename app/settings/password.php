@@ -6,12 +6,12 @@ $settings = new Settings();
 $CMS->Auth->checkAuthorization();
 
 if(isset($_POST['submit'])){
-    
+
     $CMS->Template->setData('oldpass', $_POST['oldpass']);
     $CMS->Template->setData('newpass', $_POST['newpass']);
     $CMS->Template->setData('newpass2', $_POST['newpass2']);
 
-    
+
     /* walidacja */
     if($_POST['oldpass'] == '' || $_POST['newpass'] == '' || $_POST['newpass2'] == '' ){
         $CMS->Template->setAlert('<i class="fa fa-exclamation-triangle fa-2x" aria-hidden="true"></i> Wypełnij wszystkie pola','danger');
@@ -35,7 +35,7 @@ if(isset($_POST['submit'])){
     }  
     else {
         $changed = $settings->changePassword($CMS->Auth->getCurrentUserName(), $CMS->Template->getData('newpass'));
-        
+
         if($changed == TRUE){
             $CMS->Template->setData('oldpass','');
             $CMS->Template->setData('newpass','');

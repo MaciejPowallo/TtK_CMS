@@ -2,117 +2,116 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<meta charset=utf-8>
-		<meta name=viewport content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>font-awesome/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>css/main-style.min.css">
-    <script src="<?php echo APP_RES?>js/jquery.min.js"></script>
+  <meta charset=utf-8>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo APP_RES?>css/main-style.min.css">
+  <script src="<?php echo APP_RES?>js/jquery.min.js"></script>
 
-		<?php $CMS->head(); ?>
-	  <title>Kontakt - Neobud</title>
+  <?php $CMS->head(); ?>
+  <title>Kontakt</title>
 
 </head>
 <body>
-		<?php $CMS->toolbar(); ?>
-    
-<!-- Navigation -->
-<div class="row">
-  <?php $CMS->navigation(); ?>
-</div>
+  <?php $CMS->toolbar(); ?>
 
-<!-- Image bg -->
-<section id="bg_nav">
+  <!-- Navigation -->
+  <div class="row">
+    <?php $CMS->navigation(); ?>
+  </div>
+
+  <!-- Image bg -->
+  <section id="bg_nav">
     <img src="<?php echo APP_RES?>/images/main/black-and-white.jpeg" class="bg_image_top_page" alt="bg">
-</section>
+  </section>
 
-<section id="name_block">
-  <div class="container">
+  <section id="name_block">
+    <div class="container">
 
       <div class="col-sm-5 col-sm-offset-1 name">
-        <h3>Neobud Piotr Lejczak</h3>
-        <h3>ul. Nad Widawą 5, 46-100 Namysłów</h3>
+        <h3>Your company name</h3>
+        <h3>ul. Street 1, 11-111 City</h3>
       </div>
       <div class="col-sm-5 col-sm-offset-1 name">        
-        <h3><i class="fa fa-phone-square" aria-hidden="true"></i> 600939381</h3>
-        <h3><i class="fa fa-envelope" aria-hidden="true"></i> plejczak&#64;wp.pl</h3>
+        <h3><i class="fa fa-phone-square" aria-hidden="true"></i> 111222333</h3>
+        <h3><i class="fa fa-envelope" aria-hidden="true"></i> default&#64;email.pl</h3>
       </div>
-  </div>
-</section>
+    </div>
+  </section>
 
-<section  id="map" >
-  <div class="map_overlay" onClick="style.pointerEvents='none'"></div>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2506.630958639582!2d17.72737571575421!3d51.07836217956693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471016a5d12d36a5%3A0x473b93bded9700f9!2sNeobud+Piotr+Lejczak!5e0!3m2!1spl!2spl!4v1500843791560" width="900" height="300" frameborder="0" allowfullscreen></iframe>
+  <section  id="map" >
+    <div class="map_overlay" onClick="style.pointerEvents='none'"></div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4886.983815819513!2d20.996949732729615!3d52.23444828533248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc8c0051ed67%3A0xda222f5c1300900c!2sGoogle!5e0!3m2!1spl!2spl!4v1505871649980" width="900" height="300" frameborder="0" allowfullscreen></iframe>
+  </section>
 
-</section>
+  <section id="empty_block">
+    <div></div>
+  </section>
 
-<section id="empty_block">
-  <div></div>
-</section>
-
-<!-- Contact Section -->
-<section id="contact">
-  <div class="row">
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="row">
       <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Kontakt</h2>
+        <h2 class="section-heading">Kontakt</h2>
       </div>
-  </div>
-  <div class="row">
+    </div>
+    <div class="row">
       <div class="col-xs-12">
-          <form name="sentMessage" id="contactForm" novalidate>
-              <div class="row"> 
-                  <div class="col-md-6">
-                      <div class="form-group">
-                          <input type="text" class="form-control" placeholder="Imię i nazwisko *" id="name" required data-validation-required-message="Musisz podać swoj imię i nazwisko">
-                          <p class="help-block text-danger"></p>
-                      </div>
-                      <div class="form-group">
-                          <input type="email" class="form-control" placeholder="Emial *" id="email" required data-validation-required-message="Musisz podać swój email" data-validation-email-message="Nieprawidłowy email">
-                          <p class="help-block text-danger"></p>
-                      </div>
-                      <div class="form-group">
-                          <input type="tel" class="form-control" placeholder="Numer telefonu" id="phone">
-                          <p class="help-block text-danger"></p>
-                      </div>
-                  </div>
-                  <div class="col-md-6">
-                      <div class="form-group">
-                          <textarea class="form-control" placeholder="Treść wiadomości *" id="message" required data-validation-required-message="Muisz podać treść wiadomości"></textarea>
-                          <p class="help-block text-danger"></p>
-                      </div>
-                  </div>
-                  <div class="clearfix"></div>
-                  <div class="col-xs-12 text-center">
-                      <div id="success"></div>
-                      <button type="submit" class="btn btn-xl">Wyślij</button>
-                      <button type="reset" class="btn btn-xl">Wyszyść</button>
-                  </div>
+        <form name="sentMessage" id="contactForm" novalidate>
+          <div class="row"> 
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Imię i nazwisko *" id="name" required data-validation-required-message="Musisz podać swoj imię i nazwisko">
+                <p class="help-block text-danger"></p>
               </div>
-          </form>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Emial *" id="email" required data-validation-required-message="Musisz podać swój email" data-validation-email-message="Nieprawidłowy email">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <input type="tel" class="form-control" placeholder="Numer telefonu" id="phone">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <textarea class="form-control" placeholder="Treść wiadomości *" id="message" required data-validation-required-message="Muisz podać treść wiadomości"></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-xs-12 text-center">
+              <div id="success"></div>
+              <button type="submit" class="btn btn-xl">Wyślij</button>
+              <button type="reset" class="btn btn-xl">Wyszyść</button>
+            </div>
+          </div>
+        </form>
       </div>
-  </div>
-</section>
+    </div>
+  </section>
 
 
-<!-- footer -->
-<footer class="container-fluid text-center offset-top">
-  <?php include('app/core/templates/t_footer.php'); ?>
-</footer>
+  <!-- footer -->
+  <footer class="container-fluid text-center offset-top">
+    <?php include('app/core/templates/t_footer.php'); ?>
+  </footer>
 
-<!-- scripts -->
+  <!-- scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-	<script src="<?php echo APP_RES?>/bootstrap/js/bootstrap.min.js"></script>
-	<script src="<?php echo APP_RES?>/js/main-style.js"></script>
-	<script src="<?php echo APP_RES?>/js/scroll-to-top.min.js"></script>
+  <script src="<?php echo APP_RES?>/bootstrap/js/bootstrap.min.js"></script>
+  <script src="<?php echo APP_RES?>/js/main-style.js"></script>
+  <script src="<?php echo APP_RES?>/js/scroll-to-top.min.js"></script>
   <script src="<?php echo APP_RES?>/js/jqBootstrapValidation.js"></script>
   <script src="<?php echo APP_RES?>/js/contact_me.js"></script>
 
-<!-- scroll-to-top -->
+  <!-- scroll-to-top -->
   <a href="" id="scroll-to-top" >
-        <span class="scroll-top fa-stack fa-2x fixed-up">
-            <i class="fa fa-circle fa-stack-2x fa-check"></i>
-            <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
-        </span>
+    <span class="scroll-top fa-stack fa-2x fixed-up">
+      <i class="fa fa-circle fa-stack-2x fa-check"></i>
+      <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+    </span>
   </a>
 </body>
 </html>
