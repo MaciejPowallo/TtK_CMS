@@ -44,9 +44,6 @@
       <div class="advertisement col-sm-4">
          <?php include('views/advertisement.php'); ?>
       </div>
-      <div class="no-ads-info">
-         <?php include('views/addblock_detector.php'); ?>
-      </div>
    </section>
      
    <!--      Links       -->
@@ -77,7 +74,6 @@
    <script src="<?php echo APP_RES?>js/main-style.js"></script>
    <script src="<?php echo APP_RES?>js/facebook-comments.js"></script>
    <script src="<?php echo APP_RES?>js/scroll-to-top.min.js"></script>
-   <script src="<?php echo APP_RES?>js/addblock_detector.js"></script>
 
    <!--      scroll-to-top      -->
    <a href="" id="scroll-to-top" >

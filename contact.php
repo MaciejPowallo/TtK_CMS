@@ -87,9 +87,6 @@
             </form>
          </div>
       </div>
-      <div class="no-ads-info">
-         <?php include('views/addblock_detector.php'); ?>
-      </div>
    </section>
 
    <!-- footer -->
@@ -104,7 +101,6 @@
    <script src="<?php echo APP_RES?>/js/scroll-to-top.min.js"></script>
    <script src="<?php echo APP_RES?>/js/jqBootstrapValidation.js"></script>
    <script src="<?php echo APP_RES?>/js/contact_me.js"></script>
-   <script src="<?php echo APP_RES?>js/addblock_detector.js"></script>
 
    <!-- scroll-to-top -->
    <a href="" id="scroll-to-top" >

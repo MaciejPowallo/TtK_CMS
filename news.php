@@ -40,9 +40,6 @@
 		<div class="advertisement col-sm-2 col-xs-12">
 			<?php include('views/advertisement.php'); ?>
 		</div>
-      <div class="no-ads-info">
-         <?php include('views/addblock_detector.php'); ?>
-      </div>
 	</section>
 
    <!--      Fb comments       -->
@@ -65,7 +62,6 @@
    <script src="<?php echo APP_RES?>js/facebook-comments.js"></script>
 	<script src="<?php echo APP_RES?>/js/scroll-to-top.min.js"></script>
 	<script src="<?php echo APP_RES?>/js/jssor/jssor.sliders.mini.js"></script>
-   <script src="<?php echo APP_RES?>js/addblock_detector.js"></script>
 	<script>  
 		$(document).ready(function(){  
 			var uploadField = document.getElementById("file");

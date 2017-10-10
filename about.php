@@ -36,9 +36,6 @@
 			<br><br><br>
 			<?php include('views/advertisement.php'); ?>
 		</div>
-      <div class="no-ads-info">
-         <?php include('views/addblock_detector.php'); ?>
-      </div>
 	</div>
 
 	<!-- footer -->
@@ -50,7 +47,6 @@
 	<script src="<?php echo APP_RES?>lightbox/js/lightbox.js"></script>
 	<script src="<?php echo APP_RES?>bootstrap/js/bootstrap.min.js"></script>
 	<script src="<?php echo APP_RES?>js/main-style.js"></script>
-	<script src="<?php echo APP_RES?>js/scroll-to-top.min.js"></script>
 
 	<!-- scroll-to-top -->
 	<a href="" id="scroll-to-top" >

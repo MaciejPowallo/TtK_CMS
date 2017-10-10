@@ -48,9 +48,6 @@ $settings = new Settings();
          <?php include('controllers/bands_list.php'); ?>
          <div class="text-red marg-top-1"><strong>lość zespołów w bazie: <?php echo $settings->countBands(); ?></strong></div>
          <!-- addblock detector -->
-         <div class="no-ads-info">
-            <?php include('views/addblock_detector.php'); ?>
-         </div>
       </section>
    <?php 
    } 
@@ -89,7 +86,6 @@ $settings = new Settings();
    <script src="<?php echo APP_RES?>/bootstrap/js/bootstrap.min.js"></script>
    <script src="<?php echo APP_RES?>/js/main-style.js"></script>
    <script src="<?php echo APP_RES?>/js/scroll-to-top.min.js"></script>
-   <script src="<?php echo APP_RES?>js/addblock_detector.js"></script>
 
    <!-- scroll-to-top -->
    <a href="" id="scroll-to-top" >
